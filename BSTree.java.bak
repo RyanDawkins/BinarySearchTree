@@ -1,0 +1,300 @@
+//*******************************************************************
+// CS4343 - Program 3
+// Dawkins, Ryan
+//
+// Program to understand binary search trees.
+//*******************************************************************
+
+/**
+ * BSTree class to handle strings of tokens and their frequencies
+ *
+ * @author Ryan Dawkins
+ */
+public class BSTree
+{
+
+	private BSTNode root;
+	private BSTNode deletedNode;
+
+	/**
+	 * Default constructor that creates an empty tree
+	 *
+	 */
+	public BSTree()
+	{
+		// Setting the root node to null means the basis case in the
+		// insertion method will happen and will just create a null 
+		// BSTNode
+		this.root = null;
+		this.deletedNode = null;
+	}
+
+	/**
+	 * Returns the count of the number of nodes in the tree
+	 * but is a representation of the number of tokens
+	 *
+	 * @return number of nodes in the tree
+	 */
+	public int count()
+	{
+		return count(this.root);
+	}
+
+	/**
+	 * Recursive method to get the count of the 
+	 *
+	 */
+	public int count(BSTNode node)
+	{
+		if(node == null)
+			return 0;
+		return node.getFrequency()+count(node.getLeft())+count(node.getRight());
+	}
+
+	/**
+	 * Inserts a token into the BST, if the token is found
+	 * it increments the frequency of that node and does not
+	 * create a duplicate.
+	 *
+	 * @param  token
+	 * @return void
+	 */
+	public void insert(String token)
+	{
+		// Removes all junk around the token
+		// to the given specifications
+		token = toUpperAndTrim(token);
+
+		// Making sure we are not receiving any bad input
+		// this uses an or because of short circuiting to optimize code
+		if( !(token == "" || token.length() == 0))
+		{
+			this.root = insert(token, this.root);
+		}
+	}
+
+	/**
+	 * Recursive method to insert a token into the BST
+	 *
+	 * @param token  string that has a frequency and BSTNode associated with it
+	 * @param root   the root node above the token 
+	 */
+	public BSTNode insert(String token, BSTNode root)
+	{
+
+		// Basis case to see if the root is null
+		if(root == null)
+		{
+			return new BSTNode(token);
+		}
+
+		// Checks to see where the token belongs in the tree
+		// and where to traverse left or right, if the node is
+		// equal to the token then the frequency is incremented
+		// rather than creating a duplicate value.
+		int result = root.compareTo(token);
+		
+		// Changes the left node since the node is greater than the 
+		// given token
+		if(result > 0)
+		{
+			BSTNode left = insert(token, root.getLeft());
+			root.setLeft(left);
+		}
+		// Changes the right node since the node is less than the
+		// given token
+		else if(result < 0)
+		{
+			BSTNode right = insert(token, root.getRight());
+			root.setRight(right);
+		}
+		// Default case if the nodes keys are equal
+		else
+		{
+			root.incrementFrequency();
+		}
+		return root;
+	}
+
+	public BSTNode delete(String token)
+	{
+		token = toUpperAndTrim(token);
+		BSTNode found = delete(token, null, this.root);
+		return this.deletedNode;
+	}
+
+	public BSTNode delete(String token, BSTNode parent, BSTNode root)
+	{
+		if(root == null)
+		{
+			this.deletedNode = null;
+			return root;
+		}
+
+		int comparison = token.compareTo(root.getToken());
+		if(comparison < 0)
+		{
+			System.out.println(token+" is less than "+root.getToken());
+			root.setLeft(delete(token, root, root.getLeft()));
+		}
+		else if(comparison > 0)
+		{
+			System.out.println(token+" is greater than "+root.getToken());
+			root.setRight(delete(token, root, root.getRight()));
+		}
+		else if(root.getLeft() != null && root.getRight() != null)
+		{
+			System.out.println(token+" is equal to "+root.getToken());
+			this.deletedNode = root;
+			// Grabs the furthest right node of the root node given
+			BSTNode furthestRight = findMin(root.getRight());
+
+			// I would have used accessors/mutators to use the 
+			// preexisting object but it felt wrong to break the methodology
+			// of encapsulation.
+			BSTNode replacement = new BSTNode(
+				furthestRight.getToken(), furthestRight.getFrequency());
+			replacement.setLeft(root.getLeft()).setRight(root.getRight());
+			if(parent == null)
+			{
+				BSTNode min = findMin(this.root.getLeft());
+				this.root = min;
+			}
+			else if(parent.getLeft().compareTo(replacement) == 0)
+			{
+				parent.setLeft(replacement);
+			}
+			else if(parent.getRight().compareTo(replacement) == 0)
+			{
+				parent.setRight(replacement);
+			}
+			else
+			{
+				System.out.println("There was an error in the delete function");
+				System.exit(0);
+			}
+		}
+		else if(root.getLeft() != null)
+		{
+			System.out.println("root.left is not equal to null");
+			this.deletedNode = root;
+			root = root.getLeft();
+		}
+		else
+		{
+			System.out.println("last case");
+			System.out.println(root.getToken());
+			this.deletedNode = root;
+			root = root.getRight();
+		}
+		return root;
+	}
+
+	private BSTNode findMin(BSTNode root)
+	{
+		if(root.getLeft() == null)
+		{
+			return root;
+		}
+		else
+		{
+			return findMin(root.getLeft());
+		}
+	}
+
+	/**
+	 * Method to print the header so that there's no duplicate code
+	 *
+	 * @return void
+	 */
+	public void printHeader()
+	{
+		System.out.println("COUNT  PERCENT  TOKEN");
+		System.out.println("-----  -------  --------------------");
+	}
+
+	/**
+	 * Prints a inorder traversal representation of the tree
+	 * and calls the traverseInOrder(BSTNode) method.
+	 *
+	 * @return void
+	 */
+	public void print()
+	{
+		printHeader();
+		traverseInOrder(this.root);
+	}
+
+	/**
+	 * Method to print in post order and calls the traverse
+	 * post order method.
+	 *
+	 * @return void
+	 */
+	public void printPostOrder()
+	{
+		printHeader();
+		traversePostOrder(this.root);
+	}
+
+	/**
+	 * In order traversal that prints the root node
+	 *
+	 * @param  root  the root node to be printed
+	 * @return       void
+	 */
+	public void traverseInOrder(BSTNode root)
+	{
+		if(root == null)
+		{
+			return;
+		}
+		else
+		{
+			traverseInOrder(root.getLeft());
+			System.out.println(root.toString(this.count()));
+			traverseInOrder(root.getRight());
+			return;
+		}
+	}
+
+	/**
+	 * Method to print and traverse in post order by parameterizing
+	 * the root node of the BSTree
+	 *
+	 * @param  root  the root node of the tree
+	 * @return       void
+	 */
+	public void traversePostOrder(BSTNode root)
+	{
+		if(root == null)
+		{
+			return;
+		}
+		else
+		{
+			traversePostOrder(root.getLeft());
+			traversePostOrder(root.getRight());
+			System.out.println(root.toString(this.count()));
+		}
+	}
+
+	/**
+	 * Method to remove trimming punctuation and to turn all
+	 * letters to uppercase.
+	 *
+	 * @param  token  a string that has punctuation
+	 * @return        trimmed and uppercase version of the token
+	 */
+	public static String toUpperAndTrim(String token)
+	{
+		// * The first regular expression ^[^a-zA-Z]+ checks to remove
+		//   all characters that are not punctuation until it reaches
+		//   something that is a character.
+		// * The second regular expression [^a-zA-Z]+$ checks and removes
+		//   all characters that are not characters until the end of the string.
+		// * The final method is a built in method for the string object
+		return token.replaceFirst("^[^a-zA-Z]+", "").replaceAll("[^a-zA-Z]+$", "").trim().toUpperCase();
+	}
+
+}

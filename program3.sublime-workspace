@@ -1,0 +1,940 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"delete",
+				"deletedNode"
+			],
+			[
+				"toUpp",
+				"toUpperAndTrim"
+			],
+			[
+				"trave",
+				"traversePostOrder"
+			],
+			[
+				"String",
+				"StringBuffer"
+			],
+			[
+				"File",
+				"FileNotFoundException"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"t",
+				"tree2"
+			],
+			[
+				"toUp",
+				"toUpperAndTrim"
+			],
+			[
+				"BSt",
+				"BSTNode"
+			],
+			[
+				"BST",
+				"BSTNode"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"hasRe",
+				"hasReceiptBtn"
+			],
+			[
+				"transac",
+				"transactionDate"
+			],
+			[
+				"subdep",
+				"subdepartments"
+			],
+			[
+				"set_",
+				"set_placement"
+			],
+			[
+				"primary",
+				"COL_PRIMARY_KEY"
+			],
+			[
+				"transactio",
+				"transactionid"
+			],
+			[
+				"phot",
+				"photoid"
+			],
+			[
+				"tras",
+				"transactionid"
+			],
+			[
+				"tra",
+				"transactionDate"
+			],
+			[
+				"date_cr",
+				"date_create_from_format"
+			],
+			[
+				"trans",
+				"transactionDate"
+			],
+			[
+				"account",
+				"accountNumber"
+			],
+			[
+				"get",
+				"getTransactions"
+			],
+			[
+				"sub",
+				"subDepartments"
+			],
+			[
+				"upload",
+				"image-uploading"
+			],
+			[
+				"percen",
+				"percent_complete"
+			],
+			[
+				"query",
+				"query_compete"
+			],
+			[
+				"quer",
+				"query_total"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"depart",
+				"department"
+			],
+			[
+				"last",
+				"lastCollapse"
+			],
+			[
+				"new",
+				"new_amount"
+			],
+			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"save",
+				"saveBtn"
+			],
+			[
+				"main",
+				"main_split_amount"
+			],
+			[
+				"COL_",
+				"COL_ACCOUNT"
+			],
+			[
+				"COL",
+				"COL_DEPARTMENT"
+			],
+			[
+				"image",
+				"image_count"
+			],
+			[
+				"image-",
+				"image-delete-error-alert"
+			],
+			[
+				"photo",
+				"photo_comments"
+			],
+			[
+				"html",
+				"html_entity_decode"
+			],
+			[
+				"depa",
+				"departmentNumber"
+			],
+			[
+				"__",
+				"__toArray"
+			],
+			[
+				"subdepartm",
+				"subdepartments"
+			],
+			[
+				"subDepar",
+				"subDepartmentField"
+			],
+			[
+				"subd",
+				"subDepartments"
+			],
+			[
+				"store",
+				"storeSubDepartments"
+			],
+			[
+				"subDep",
+				"subDepartmentField"
+			],
+			[
+				"defaul",
+				"defaultBody"
+			],
+			[
+				"defa",
+				"default_id"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"subde",
+				"subdepartment"
+			],
+			[
+				"isLogg",
+				"isLoggedIn"
+			],
+			[
+				"subdepart",
+				"subdepartments"
+			],
+			[
+				"subdepartment",
+				"subdepartment"
+			],
+			[
+				"setUser",
+				"setUserSession"
+			],
+			[
+				"user",
+				"userSession"
+			],
+			[
+				"submit",
+				"submitClicked"
+			],
+			[
+				"splitAmou",
+				"splitAmountField"
+			],
+			[
+				"departme",
+				"departmentField"
+			],
+			[
+				"tran",
+				"transactionid"
+			],
+			[
+				"google",
+				"google_client"
+			],
+			[
+				"goog",
+				"google-api-php-client"
+			],
+			[
+				"JS",
+				"json_encode"
+			],
+			[
+				"access_token",
+				"access_token"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"CLIENT",
+				"CLIENT_SECRET"
+			],
+			[
+				"pho",
+				"photoid"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"Model_",
+				"Model_Breadcrumb"
+			],
+			[
+				"Model_Trans",
+				"Model_Transaction_Uncoded"
+			],
+			[
+				"current",
+				"currentAmount"
+			],
+			[
+				"vendor",
+				"vendorName"
+			],
+			[
+				"u",
+				"uncodedObj"
+			],
+			[
+				"week",
+				"weekid"
+			],
+			[
+				"stat",
+				"statusid"
+			],
+			[
+				"STATUS",
+				"STATUS_APPROVED"
+			],
+			[
+				"acc",
+				"accountNumber"
+			],
+			[
+				"week_",
+				"week_end"
+			],
+			[
+				"insert",
+				"insertid"
+			],
+			[
+				"notifi",
+				"notification_type"
+			],
+			[
+				"transact",
+				"transactionid"
+			],
+			[
+				"emai",
+				"emailManager"
+			],
+			[
+				"noti",
+				"notification_type"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"click",
+				"clickable"
+			],
+			[
+				"length",
+				"length-1"
+			],
+			[
+				"Array",
+				"ArrayUtils"
+			],
+			[
+				"Fil",
+				"FileOutputStream"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"k",
+				"keyMap"
+			],
+			[
+				"pq",
+				"pq"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"node",
+				"nodeArrayTree"
+			],
+			[
+				"set",
+				"setZero"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"arr",
+				"arr"
+			],
+			[
+				"key",
+				"key"
+			],
+			[
+				"byte",
+				"byte"
+			],
+			[
+				"T",
+				"T"
+			],
+			[
+				"states",
+				"stateCities"
+			],
+			[
+				"country",
+				"countryName"
+			],
+			[
+				"cdf",
+				"CDFException"
+			],
+			[
+				"CDF",
+				"CDF"
+			],
+			[
+				"print",
+				"printStackTrace"
+			],
+			[
+				"area",
+				"area"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "BSTree.java",
+			"settings":
+			{
+				"buffer_size": 8982,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WordCounter.java",
+			"settings":
+			{
+				"buffer_size": 2420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "BSTNode.java",
+			"settings":
+			{
+				"buffer_size": 4820,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"selected_items":
+		[
+			[
+				"Snippet: get",
+				"Snippet: Create getter and setter methods"
+			],
+			[
+				"Packag",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/DATA/School Work/Data Structures/program3/WordCounter.java",
+		"/media/DATA/School Work/Data Structures/program3/BSTNode.java",
+		"/media/DATA/School Work/Data Structures/program3/BSTree.java",
+		"/media/DATA/vhosts/blackbriar/htdocs/assets/js/events/transaction.js",
+		"/media/DATA/vhosts/blackbriar/fuel/app/views/site/transaction.php",
+		"/media/DATA/vhosts/blackbriar/htdocs/assets/js/functions/transaction.js",
+		"/media/DATA/vhosts/blackbriar/fuel/app/classes/model/transaction.php",
+		"/media/DATA/vhosts/blackbriar/fuel/app/classes/model/transactions.php",
+		"/media/DATA/vhosts/blackbriar/fuel/app/classes/model/transaction/split.php",
+		"/media/DATA/vhosts/blackbriar/fuel/app/classes/controller/transaction/split.php",
+		"/media/DATA/vhosts/blackbriar/fuel/app/views/site/template.php",
+		"/media/DATA/vhosts/blackbriar/htdocs/assets/css/blackbriar.css",
+		"/media/DATA/vhosts/blackbriar/fuel/app/classes/controller/admin.php",
+		"/media/DATA/vhosts/blackbriar/htdocs/assets/js/services.js",
+		"/media/DATA/vhosts/blackbriar/htdocs/assets/js/app.js",
+		"/media/DATA/vhosts/blackbriar/htdocs/assets/js/controllers.js",
+		"/media/DATA/vhosts/blackbriar/htdocs/app/transaction/transaction.js",
+		"/media/DATA/vhosts/blackbriar/htdocs/assets/js/angular.min.js",
+		"/media/DATA/vhosts/blackbriar/htdocs/app/transaction/transaction.html",
+		"/media/DATA/vhosts/blackbriar/fuel/app/classes/controller/upload.php",
+		"/media/DATA/vhosts/blackbriar/fuel/app/views/site/dashboard.php",
+		"/media/DATA/vhosts/blackbriar/fuel/app/classes/controller/transaction.php",
+		"/media/DATA/vhosts/ryanddawkins/fuel/app/classes/model/site/title.php",
+		"/media/DATA/vhosts/ryanddawkins/fuel/app/config/routes.php",
+		"/media/DATA/vhosts/ryanddawkins/fuel/app/views/site/index.php",
+		"/media/DATA/vhosts/ryanddawkins/fuel/app/classes/controller/site.php",
+		"/media/DATA/vhosts/ryanddawkins/fuel/app/views/site/template.php",
+		"/media/DATA/vhosts/ryanddawkins/ryanddawkins-ubuntu.sublime-project",
+		"/media/DATA/vhosts/ryanddawkins/fuel/app/config/development/db.php",
+		"/media/DATA/Projects/ryanddawkins/fuel/app/config/db.php",
+		"/media/DATA/Projects/ryanddawkins/fuel/app/config/development/db.php",
+		"/media/DATA/Projects/ryanddawkins/htdocs/index.php",
+		"/media/DATA/Projects/ryanddawkins/fuel/app/classes/model/site/element.php",
+		"/media/DATA/Projects/ryanddawkins/ryanddawkins-ubuntu.sublime-project",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/.htaccess",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/.htaccess",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/views/site/transaction.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/transaction.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/account.php",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/transaction.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/transaction.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/transactions.js",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/admin.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/views/site/dashboard.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/transactions.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/views/site/template.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/db/storage.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/upload.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/transaction.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/templates.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/user.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/user.php",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/codings.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/transactions.js",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/views/site/defaults.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/status.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/views/site/search.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/subdepartment.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/db/transactionlog.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/views/site/testing.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/views/site/transactionForm.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/db/notification.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/auth.php",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/index.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/login.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/dashboard.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/ace.min.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/css/dashboard.css",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/additional-methods.min.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/ace-elements.min.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/ace-extra.min.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/excanvas.min.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/css/uncompressed/ace.css",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/css/uncompressed/ace-rtl.css",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/config/routes.php",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/css/index.css",
+		"/media/DATA/Projects/glowing-spice/src/com/ryanddawkins/glowing-spice/Glowing_Spice_Server.java",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/manageUsers.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/manageUsers.js",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/db/role.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/views/site/manageusers.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/config/config.php",
+		"/home/ryan/.config/sublime-text-3/Packages/User/getset.sublime-snippet",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/db/user.php",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/css/transaction.css",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/defaults.js",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/department.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/campus.php",
+		"/media/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/transaction/split.php",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/upload.js",
+		"/media/DATA/Projects/Blackbriar-Web/htdocs/index.php",
+		"/media/DATA/pcard-ubuntu.sublime-project",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/db/storage.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/transaction.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/upload.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/admin.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/upload.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/views/site/transaction.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/css/transaction.css",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/views/site/playground.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/upload.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/jquery-1.7.2.min.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/transaction.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/approval.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/transaction.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/precode.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/storage/auth.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/default.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/account.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/subdepartment.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/department.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/defaults.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/defaults.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/campus.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/transaction/split.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/controller/site.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/views/site/defaults.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/views/site/template.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/defaults.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/css/defaults.css",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/classes/model/transactions.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/login.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/functions/._defaults.js",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/views/site/settings.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/htdocs/assets/js/events/defaults.ks",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/config/routes.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/config/production/db.php",
+		"/Volumes/DATA/Projects/Blackbriar-Web/fuel/app/config/development/db.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"totalCount",
+			"toString(",
+			"toString()",
+			"delete",
+			"above",
+			"());\n",
+			", ",
+			"1",
+			"{\n",
+			"qwert",
+			"public",
+			"});\n",
+			"']\");",
+			"))\n",
+			"JSON",
+			"var",
+			"        <",
+			"'',",
+			"col-lg-4 col-md-4 col-sm-10 col-xs-8",
+			"col-lg-10 col-md-10 col-sm-10 col-xs-8",
+			"where",
+			"epartment",
+			"                    ",
+			";\n",
+			"get_percentage_complete",
+			"easy",
+			"chart",
+			"pie",
+			"easy",
+			";\"></",
+			"infobox",
+			"info",
+			"Packages/",
+			"Packages",
+			"();\n",
+			"']);\n",
+			"input",
+			"subDepartment",
+			"console.log",
+			"storeSubDepartments",
+			"length",
+			"subDepartmentField",
+			"subDepartment",
+			"userSession",
+			"mainSplitAmount",
+			"vendorName",
+			"is_live",
+			"accordion",
+			"collapseTwo",
+			"collapseOne",
+			"collapse",
+			"Session",
+			"session",
+			"role",
+			"$this->role",
+			"this->role",
+			"Session::get",
+			"'));\n",
+			"Google_BucketsServiceResource",
+			"buckets",
+			"bucket",
+			"buckets",
+			"access",
+			"token",
+			"Google_StorageSErvice",
+			"BUCKET",
+			"YOUR_",
+			"YOUR",
+			"IS_LIVE",
+			"'approval_list'",
+			"$this->DEBUG_ON",
+			"$this->IS_LIVE",
+			"create",
+			"WEBSITE",
+			"issuerentity",
+			"financialtransaction_54",
+			"financialtransaction_2",
+			"financialtransaction_3",
+			"financialtransaction_4",
+			"financialtransaction_",
+			"financialtransactionEntity",
+			"accountentity",
+			"1684"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col-lg-10 col-md-10 col-sm-10 col-xs-8",
+			"subdepartment",
+			"self::TABLE_NAME",
+			"self::DEBUG_ON",
+			"self::IS_LIVE"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "BSTree.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6123,
+								6123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "WordCounter.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1279,
+								1279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1275.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "BSTNode.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "program3.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/ryan.dawkins/Downloads/CDF3_12_01_02_00/outbound_Cyclefile_12_01.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/media/DATA/Projects/glowing-spice/glowing-spice-ubuntu.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
